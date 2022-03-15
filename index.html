@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/872ad2c4a3.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>The Flea Market Store &#128151 </title>
+</head>
+<body>
+    <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                <img src="img/logo.png" class="img-fluid" />
+            </div>
+            <div class="col-md-4 col-xl-6 mt-4 pt-3">
+                <h1>The Flea Market Store &#128151</h1>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark navigationBar">
+        <div class="container">
+            
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fleaMarketStore">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-block d-flex justify-content-center" id="fleaMarketNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link text-dark" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="aboutUs.html">About</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="products.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="contactUs.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+<div class="container">
+    <div class="row row-content mb-3 mt-3 pt-3">
+        <div class="col-md-8 mx-auto">
+            <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#homeCarousel" data-slide-to="1"></li>
+                    <li data-target="#homeCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/fleaMarketParis.jpeg" alt="Flea Market Paris"/>
+                        <div class="carousel-caption">
+                        <h3 class="nameFleaMarket">Flea Market Les Puces in Paris</h3>
+                        <p class="d-none d-sm-block">Les Puces flea market in Paris is the largest of its kind in the world and is brimming with vintage and antique treasures. Prepare for your trip with our handy tips on tackling this monumental market.</p>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/fleaMarketSpain.jpeg" alt="Flea Market in Barcelona"/>
+                        <div class="carousel-caption">
+                            <h3 class="nameFleaMarket">Flea Market Els Encants in Barcelona</h3>
+                            <p class="d-none d-sm-block">One of the biggest and the best flea markets in the city is the Encants market, which has been around since the 14th century, making it the oldest market in Europe. Els Encants is located at Carrer de los Castillejos, 158.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/flowersMarket.jpeg" alt="Flowers Market"/>
+                        <div class="carousel-caption">
+                            <h3 class="nameFleaMarket">Flea Market at Rathaus Schoeneberg Berlin</h3>
+                            <p class="d-none d-sm-block">Where John F. Kennedy once stood and identified himself as a Berliner, these days is where many people jostle every weekend between tent rows of hobby flea market dealers. Whether you're a Berliner or not, blend in with the colorful crowd of like-minded people looking for bargains in the form of clothing, books, electrical goods, and other knickknacks.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+                </a>
+                    <button class="btn btn-danger btn-sm" id="carouselButton">
+                        <i class="fa fa-pause"></i>
+                    </button>
+            </div>
+        </div>
+    </div>
+    
+        <div class="row">
+           <div class="area-picture d-flex justify-content-around mt-3 pt-3">
+            <div class="col-3 col-sm-3 col-md-2 align-self-center">
+                <div class="block">
+                <div class="wrapper-heading">
+                <h3>Flea Market</h3>
+                <img src="img/dollFleaMarket.jpeg" class="img-fluid img-thumbnail" width="150">
+            </div>
+                <div class="col-sm-6 botones">
+                    <button type="button" id="parisButton" class="btn btn-sm btn-primary" data-toggle="tooltip" data-container="body" data-placement="top" data-title="This is in Paris" style="display:inline-block">More Info</button>
+            
+            </div>
+        </div>
+        </div>
+        
+            <div class="col-3 col-sm-3 col-md-2 align-self-center">
+                <div class="block">
+                <div class="wrapper-heading">
+                <h3>Flea Market</h3>
+                <img src="img/flowerFleaMarket.jpeg" class="img-fluid img-thumbnail" width="150" alt="">
+            </div>
+                <div class="col-sm-6 botones">
+                    <button type="button" id="berlinButton" class="btn btn-sm btn-primary" data-toggle="tooltip" data-container="body" data-placement="top" data-title="This is in Berlin" style="display:inline-block">More Info</button>
+            </div>
+        </div>
+        </div>
+         
+            <div class="col-3 col-sm-3 col-md-2 align-self-center">
+                <div class="block text">
+                <div class="wrapper-heading">
+                <h3>Flea Market</h3>
+                <img src="img/girlFleaMarket.jpeg" class="img-fluid img-thumbnail" width="150" alt="">
+            </div>
+                <div class="col-sm-6 botones">
+                   
+                 <button type="button" id="barcelonaButton" class="btn btn-sm btn-primary" data-toggle="tooltip" data-container="body" data-placement="top" data-title="This is in Barcelona" style="display:inline-block">More Info</button>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="title-discount">
+    <h2 class="discount-part mt-5 mb-3 d-flex justify-content-center">Discounts of the month by category ❤️</h2>
+</div>
+            <div class="row row-content-accordion container-fluid">
+                <div class="col">
+                <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5>
+                        <a class="collapsed" data-toggle="collapse" data-target="#bags">Bags<small class="d-sm-block">Cath Kidson Bags</small>
+                        </a></h5>
+                  
+             <div class="collapse" id="bags" data-parent="#accordion">           
+                  <div class="card-body">      
+                   <p class="d-sm-block">Cath Kidston Floral print bags 👜 all the collections from 15$</p>
+             </div>
+         </div>
+    </div>
+</div>
+         <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5>
+                    <a class="collapsed" data-toggle="collapse" data-target="#dresses">Dresses<small class="d-block">Flower Collection</small>
+                    </a></h5>
+            
+        <div class="collapse" id="dresses" data-parent="#accordion">            
+            <div class="card-body">        
+          <p class="d-sm-block">Gorgeus second hand floral dresses 👗 in all the measures from 20$.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5>
+                    <a class="collapsed" data-toggle="collapse" data-target="#makeup">MakeUp<small class="d-block">Etude Collection</small>
+                    </a></h5>
+               
+        <div class="collapse" id="makeup" data-parent="#accordion">
+            <div class="card-body">        
+               <p class="d-sm-block">Beautiful, eco-friendly makeup 💄 and nails product 💅 made by Etude imported from Korea from 8$</p>
+        </div>
+    </div>
+</div>
+</div>
+            <div class="card">
+            <div class="card-header" id="headingFour">
+                <h5>
+                    <a class="collapsed" data-toggle="collapse" data-target="#shoes">Shoes<small class="d-block">Sweet Trend</small>
+                    </a></h5>
+                   
+        <div class="collapse" id="shoes" data-parent="#accordion">            
+            <div class="card-body">       
+          <p class="d-sm-block">Second Hand casual Shoes 👠, ballerinas 🩰 and tennis shoes 👟 . Affordable prices from 10$ and in good conditions.</p> 
+        </div>
+    </div> 
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<hr/>
+
+<h3 class="col-sm-4 col-md-8 col-lg-12 conceptFleaMarket d-flex justify-content-center">Reasons why to visit a Flea Market❓🤷‍♀️</h3>
+
+    <div class="row row-content align-items-center">
+        <div class="col-sm-3 order-sm-last col-md-3 fleaMarketsHeading">
+    <h2 class="text-sm-right">Discover 👩‍💻 & Visit </h2>
+</div>
+    <div class="col">
+        <div class="media d-flex justify-content-center">
+        <img class="mr-3 img-thumbnail col-sm-3 fleaMarketsImage" src="img/artisanatsFleaMarket.jpeg" alt="Breadcrumb Trail thumbnail" />
+        <div class="media-body align-self-center">
+    <h3 class="fleaMarkets">The Flea Markets</h3>
+    <p class="d-none d-sm-block fleaMarketsContent"> 🖼🧥👓👜📒⌚🥿👚👒and more!</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="row row-content-video">
+    <div class="col col-sm-10">
+    <h4 class="video-part d-flex justify-content-center">Visiting to a small Flea Market in a village in France </h4>
+   <div class="d-flex justify-content-center pt-3 mt-3 mb-4">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rllpkSgg42Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+
+<hr/>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+    <div class="col-4 col-sm-2 offset-1">
+        <h5 class="links mt-4">Links</h5>
+        <ul class="list-unstyled">
+            <li class="nav-item active"><a class="nav-link ml-2" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link ml-2" href="aboutus.html">About</a></li>
+            <li class="nav-item"><a class="nav-link ml-2" href="#">Products</a></li>
+            <li class="nav-item"><a class="nav-link ml-2" href="contactus.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="col-6 col-sm-5 text-center">
+        <h5 class="social mt-4">Social</h5>
+        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+    </div>
+    <div class="col-sm-4 text-center mt-4">
+        <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br>
+    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+    </div>
+   </div>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="scripts.js"></script>
+      
+</body>
+</html>
